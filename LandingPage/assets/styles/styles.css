@@ -152,3 +152,109 @@ section.app div.container img {
     display: block;
     max-width: 300px;
 }
+
+section.app div.container div.form {
+    max-width: 485px;
+   /* background-color: #ED5A6B;*/
+    
+}
+
+section.app div.container div.form h1 {
+    font-size: 3rem;
+
+}
+section.app div.container div.form small {
+    font-size:1.1rem;
+    display: block;
+    font-weight: 100;
+    color: #393737;
+    margin:20px 0px;
+    
+    
+}
+
+section.app div.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    
+}
+section.app div.input input {
+    flex-grow: 70;
+    background-color: #fff;
+    border: 1px solid#cfcfcf;
+    font-size: 1.2rem;
+    padding-left: 10px ;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0px 10px 0px 0px;
+    
+}
+
+section.app div.input button{
+    height: 100%;
+    flex-grow: 30;
+    background-color:#ED5A6B;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+section.app div.input button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    background-color: #df606f;
+   
+}
+
+section.app div.form div.download {
+    margin: 20px 0px;
+    font-weight: 100;
+    color: grey;
+}
+
+section.app div.form div.download div img {
+    max-width: 150px;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+section.option  {
+    min-height: 60vh;
+  
+}
+
+section.option div.container {
+    width: 90%;
+    margin: 30px auto;
+    
+}
+section.option div.container h2 {
+    font-size: 2rem;
+}
+
+section.option div.container h3{
+    font-size: 1.6rem;
+}
+section.option div.container div {
+    margin-top: 40px;
+}
+
+section.option div.container div ul {
+    margin-top:20px ;
+    padding: 20px;
+    display: flex;
+    
+   
+}
+section.option div.container div ul li {
+    margin: 3px 10px;
+    color: gray;
+    font-size: 1.1rem;
+    font-weight: 100;
+    
+
+}
+ul.a {
+    list-style-type: circle;
+  }
